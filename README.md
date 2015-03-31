@@ -1,2 +1,1 @@
-# board
-thawing-waters-7789.herokuapp.com
+https://thawing-waters-7789.herokuapp.com
