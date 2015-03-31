@@ -1,0 +1,7 @@
+<h1>Welcome To Andy's Board!</h1>
+<% @jobs.each do |job| %>
+  <h3><%= job.title %></h3>
+  <p><%= job.description %></p>
+  <h5><%= link_to "編輯留言", edit_job_path(job)%></h5>
+  <h5><%= link_to '刪除留言', job, method: :delete %></h5>
+<% end %>
